@@ -11,11 +11,11 @@
   vars_prompt:
     - name: "rhn_username"
       prompt: "Enter Your Red Hat Customer Portal Username"
-      private: false
+      private: no
 
     - name: "rhn_password"
       prompt: "Enter Your Red Hat Customer Portal Password"
-      private: true
+      private: yes
 
   roles:
     - redhat-cop.jboss_common
