@@ -1,3 +1,5 @@
+---
+
 - src: redhat-cop.jboss_eap
   name: redhat-cop.jboss_eap
 
