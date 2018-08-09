@@ -3,6 +3,7 @@ extends: default
 rules:
   line-length:
     level: error
+    max: 100
   document-start:
     present: true
     level: error

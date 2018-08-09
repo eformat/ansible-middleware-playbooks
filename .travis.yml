@@ -22,6 +22,6 @@ script:
     ansible-playbook $PLAYBOOK --syntax-check
     fi
     done
-  - yamllint -s -c tests/yamllint.yml $(find . -depth 1 -name '*.yml')
+  - yamllint -s -c tests/yamllint.yml $(find . -mindepth 1 -maxdepth 1 -name '*.yml')
 notifications:
   slack: redhat:GhPEcNzYddt4Pf9OJW2wcyCK
